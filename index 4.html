@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+        }
+        .top-links {
+            position: absolute;
+            top: 10px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .top-links a {
+            color: #5f6368;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .logo {
+            margin-top: 50px;
+        }
+        .search-container {
+            display: flex;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .search-bar {
+            width: 500px;
+            padding: 10px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            outline: none;
+            font-size: 16px;
+        }
+        .search-buttons {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .search-button {
+            margin: 0 5px;
+            padding: 10px 20px;
+            background-color: #f8f9fa;
+            border: 1px solid #f8f9fa;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .search-button:hover {
+            background-color: #e8e8e8;
+        }
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            text-align: center;
+            width: 100%;
+            color: #5f6368;
+        }
+        .languages {
+            margin-top: 10px;
+        }
+        .languages a {
+            color: #1a73e8;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-links">
+        <div>
+            <a href="#">About</a>
+            <a href="#">Store</a>
+        </div>
+        <div>
+            <a href="#">Gmail</a>
+            <a href="#">Images</a>
+        </div>
+    </div>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" class="logo">
+    <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search Google or type a URL">
+    </div>
+    <div class="search-buttons">
+        <button class="search-button">Google Search</button>
+        <button class="search-button">I'm Feeling Lucky</button>
+    </div>
+    <div class="footer">
+        <div class="languages">
+            <a href="#">हिन्दी</a>
+            <a href="#">বাংলা</a>
+            <a href="#">తెలుగు</a>
+            <a href="#">मराठी</a>
+            <a href="#">தமிழ்</a>
+            <a href="#">ગુજરાતી</a>
+            <a href="#">ಕನ್ನಡ</a>
+            <a href="#">മലയാളം</a>
+            <a href="#">ਪੰਜਾਬੀ</a>
+        </div>
+    </div>
+</body>
+</html>
